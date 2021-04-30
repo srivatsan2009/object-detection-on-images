@@ -1,0 +1,25 @@
+body {
+background-size: cover;
+}
+
+h1 {
+text-align: center;
+color: red;
+background-color: black;
+}
+
+.dropdown1 {
+color: red;
+} 
+
+canvas {
+border:dashed goldenrod;
+margin-top: 100px;
+animation: example 5s infinite;
+}
+@keyframes example{
+0% {border-color: chocolate;}
+25% {border-color: red;}
+50% {border-color: beige;}
+100% {border-color: bisque;}
+}
